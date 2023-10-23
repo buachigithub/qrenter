@@ -20,4 +20,4 @@ for entry_code, customer_data in database.items():
     qr.add_data(entry_code)
     qr.make(fit=True)
     img = qr.make_image(fill_color="black", back_color="white")
-    img.save(f"{entry_code}.png")
+    img.save(f"./qrcode/{entry_code}.png")
