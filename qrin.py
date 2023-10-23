@@ -63,7 +63,7 @@ while True:
         current_time = time.time()
         if not data in last_read_times: #最後に読み込まれたのはいつか辞書に記載がない場合に追加する
             last_read_times[data] = ignore_period
-        if  (current_time - last_read_times[data]) >= ignore_period: #最後に読み込まれたリストを参照して、ignore_preiod秒立っていない場合ははじく
+        if  (current_time - last_read_times[data]) >= ignore_period: #最後に読み込まれたリストを参照して、ignore_preiod秒立っていない場合ははじく、
             last_read_times[data] = current_time
             if (data in database["haireru"] or data in database["haitta"]): #はいれるか読み取り済みかにかかわらず入っているか判定
                     if data in database["haireru"]: #はいれる場合はそのデータベースを入ったリストにコピーして、はいれるリストから削除
