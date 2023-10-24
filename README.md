@@ -34,6 +34,7 @@ macOS:
 brew install zbar
 ```
 Windowsの人は自分でダウンロードしてね。
+※追記　プリインストールされている場合が多いようです。エラーが出た時だけ入れてもいいかも
 
 http://zbar.sourceforge.net/
 
