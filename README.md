@@ -26,7 +26,7 @@ pip install pygame
 ```
 
 ```
-pip install opencv-python-headles
+pip install opencv-python
 ```
 
 ```
@@ -44,8 +44,6 @@ macOS:
 brew install zbar
 ```
 Windowsの人は自分でダウンロードしてね。
-
-※追記　プリインストールされている場合が多いようです。エラーが出た時だけ入れてもいいかも
 
 http://zbar.sourceforge.net/
 
