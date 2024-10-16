@@ -3,7 +3,7 @@ from pyzbar.pyzbar import decode
 import os
 import time
 import pygame
-import threading  # 新たにスレッドを追加して並行処理を実現
+import threading 
 
 # テキストファイルデータベースを読み込みする関数
 def load_database():
