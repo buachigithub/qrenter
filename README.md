@@ -33,6 +33,10 @@ pip install opencv-python
 pip install pyzbar
 ```
 
+```
+pip install pillow
+```
+
 ### 2.Zbarライブラリをインストールする
 
 Linux(Debian系):
